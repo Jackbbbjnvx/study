@@ -1,0 +1,32 @@
+body {
+  background-color: #1f1f1f;
+}
+h1,
+h2,
+h3 {
+  color: #00ffff;
+}
+
+p {
+  color: #888888;
+}
+
+.sidebyside {
+  margin: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.first_element {
+  flex-grow: 1;
+  background-color: #111111;
+  justify-items: center;
+  align-items: center;
+}
+
+.second_element {
+  flex-grow: 1;
+  background-color: #333000;
+  justify-items: center;
+  align-items: center;
+}

@@ -1,0 +1,48 @@
+body {
+  background-color: #000000;
+}
+h2 {
+  color: #dddddd;
+}
+p {
+  background-color: blue;
+  color: yellow;
+}
+form {
+  color: #cccccc;
+}
+button {
+  flex-direction: vertical;
+  background-color: #555555;
+  color: #dddddd;
+  border-color: #555555;
+  padding: 8px;
+}
+
+input {
+  flex-direction: vertical;
+  margin-top: 8px;
+  border-radius: 8px;
+  background-color: #222222;
+  border: 0;
+  border-color: #222222;
+  padding: 8px;
+  color: #dddddd;
+}
+
+/* .dot { */
+/*   position: absolute; */
+/*   left: 100px; */
+/*   top: 100px; */
+/*   background-color: #333333; */
+/*   width: 200px; */
+/*   height: 200px; */
+/* } */
+.box {
+  position: relative;
+  left: 100px;
+  top: 100px;
+  background-color: #212121;
+  width: 400px;
+  height: 400px;
+}
